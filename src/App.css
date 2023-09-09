@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+* {
     font-family: 'Poppins', sans-serif;
+}
+.footer-container {
+    background: url("./assets/footerbg.jpeg");
+    background-size: cover;
 }
