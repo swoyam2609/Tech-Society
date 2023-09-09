@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='h-screen w-full flex justify-center items-center'>Home</div>
   )
 }
 

@@ -5,6 +5,10 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 .footer-container {
     background: url("./assets/footerbg.jpeg");
     background-size: cover;

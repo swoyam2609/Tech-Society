@@ -3,8 +3,8 @@ import logo from "../../assets/logo.svg"
 
 function Footer() {
   return (
-    <div className="footer-container w-screen">
-      <div className="min-h- mx-auto sm:w-1/2 sm:flex p-5 justify-evenly text-white">
+    <div className="footer-container w-full">
+      <div className="min-h- mx-auto sm:w-1/2 sm:flex p-5 justify-evenly pt-9 text-white">
         <div className=''>
           <div className="items-center font-[Poppins] text-white">
             <a href="/" className="flex">
