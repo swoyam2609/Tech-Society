@@ -11,7 +11,7 @@ import img1 from "../../assets/home/img1.jpeg";
 
 function Home() {
   return (
-    <div className="min-h-full w-full">
+    <div className="min-h-full w-full z-0">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}

@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <div className=" shadow-md w-full top-0 left-0 navbar">
       <div className="md:flex items-center justify-between bg-[#0c0a0a] py-4 px-7 md:px-10">
-        <div className="items-center font-[Poppins] text-white">
+        <div className="items-center font-[Poppins] text-white z-20">
           <a href="/" className="flex">
             <span>
               <img src={logo} alt="tech-society logo" />
@@ -30,8 +30,8 @@ export default function NavBar() {
           <ion-icon name={isOpen ? "close" : "menu"}></ion-icon>
         </div>
         <ul
-          className={`text-[#848484] bg-[#0c0a0a] md:flex md:items-center md:py-0 py-4 md:static absolute left-0 w-full md:w-auto md:pl-0 pl-5 md:z-auto z-[-1] transition-all duration-500 ease-in ${
-            isOpen ? "top-20 z-auto" : "top-[-500px]"
+          className={`text-[#848484] bg-[#0c0a0a] md:flex md:items-center md:py-0 py-4 md:static absolute left-0 w-full md:w-auto md:pl-0 pl-5 z-10 transition-all duration-500 ease-in ${
+            isOpen ? "top-20" : "top-[-500px]"
           }`}
         >
           <li className="md:ml-8 text-sm md:my-0 my-5">
