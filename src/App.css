@@ -10,6 +10,6 @@ body {
     padding: 0;
 }
 .footer-container {
-    background: url("./assets/footerbg.jpeg");
+    background: url("./assets/bg.jpeg");
     background-size: cover;
 }

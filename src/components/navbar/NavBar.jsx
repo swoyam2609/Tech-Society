@@ -47,7 +47,7 @@ export default function NavBar() {
               PAGES &#709;
             </button>
             <div
-              className={`w-28 md:absolute bg-[#0c0c0a] -right-10 p-2 transition-all duration-1000 ${
+              className={`w-28 md:absolute bg-[#0c0c0a] -right-10 p-2 z-10 transition-all duration-1000 ${
                 dropdown ? "top-15" : "top-[-200px]"
               }`}
               onMouseLeave={() => setDropdown(false)}
