@@ -8,8 +8,6 @@ import "swiper/css/scrollbar";
 
 import cimg from "../../assets/home/home-carousel/carousel1.png"
 import img1 from "../../assets/home/img1.jpeg";
-import leaders1 from "../../assets/home/leaders1.jpeg";
-import leaders2 from "../../assets/home/leaders2.jpeg";
 
 function Home() {
   return (
