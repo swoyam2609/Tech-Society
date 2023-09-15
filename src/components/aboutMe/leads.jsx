@@ -6,7 +6,8 @@ const Leads = () => {
     {
       name: 'Lead 1',
       title: 'Title 1',
-      imageUrl:lead, // Replace with the actual image URL
+      imageUrl:lead,
+       // Replace with the actual image URL
     },
     {
       name: 'Lead 2',
@@ -21,7 +22,7 @@ const Leads = () => {
   ];
 
   return (
-  <div className="justify-center items-center" style={{background:"#0C0A0A"}}>
+  <div className="justify-center items-center pb-8" style={{background:"#0C0A0A"}}>
   <div className='flex flex-col justify-center pt-10'>
     <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider justify-center">
               2023
