@@ -7,14 +7,10 @@ const Leads = () => {
       name: 'Lead 1',
       title: 'Title 1',
       imageUrl:lead,
-<<<<<<< Updated upstream
       facebook:'#',
       instagram:'#',
       twitter:'#',
       mail:'#'
-=======
-       // Replace with the actual image URL
->>>>>>> Stashed changes
     },
     {
       name: 'Lead 2',
@@ -37,7 +33,6 @@ const Leads = () => {
   ];
 
   return (
-<<<<<<< Updated upstream
   <div className="justify-center items-center pb-28" style={{background:"#0C0A0A"}}>
   <div className='flex gap-5 text-left ml-5 lg:ml-80 pt-28'>
 
@@ -45,7 +40,7 @@ const Leads = () => {
           <img src={game} className="w-16 h-16" alt="" />
         </div>
         <div>
-          <h1 className='text-white text-4.5xl tracking-widest pb-1'>76,500</h1>
+          <h1 className='text-white text-4.5xl tracking-wider pb-1'>76,500</h1>
           <p className='text-white text-xs opacity-70 pb-10'>Games playerd by 6,388 people in 7 days</p>
           </div>
       </div>
@@ -55,17 +50,14 @@ const Leads = () => {
           <img src={game} className="w-16 h-16" alt="" />
         </div>
         <div>
-          <h1 className='text-white text-4.5xl tracking-widest pb-1'>76,500</h1>
+          <h1 className='text-white text-4.5xl tracking-wider pb-1'>76,500</h1>
           <p className='text-white text-xs opacity-70 pb-10'>Games playerd by 6,388 people in 7 days</p>
           </div>
       </div>
-      <hr class="border-t border-gray-300 w-[30rem] pb-10 my-4 ml-72 border-opacity-50"></hr>
+      <hr class="border-t border-gray-300 w-[30rem] pb-10 my-4 ml-72 "></hr>
 
 
 
-=======
-  <div className="justify-center items-center pb-8" style={{background:"#0C0A0A"}}>
->>>>>>> Stashed changes
   <div className='flex flex-col justify-center pt-10'>
     <h5 className="text-s m-auto text-[#3786ff] my-2 tracking-wider justify-center">
               2023
