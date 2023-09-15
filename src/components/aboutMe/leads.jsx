@@ -7,10 +7,14 @@ const Leads = () => {
       name: 'Lead 1',
       title: 'Title 1',
       imageUrl:lead,
+<<<<<<< Updated upstream
       facebook:'#',
       instagram:'#',
       twitter:'#',
       mail:'#'
+=======
+       // Replace with the actual image URL
+>>>>>>> Stashed changes
     },
     {
       name: 'Lead 2',
@@ -33,6 +37,7 @@ const Leads = () => {
   ];
 
   return (
+<<<<<<< Updated upstream
   <div className="justify-center items-center pb-28" style={{background:"#0C0A0A"}}>
   <div className='flex gap-5 text-left ml-5 lg:ml-80 pt-28'>
 
@@ -58,6 +63,9 @@ const Leads = () => {
 
 
 
+=======
+  <div className="justify-center items-center pb-8" style={{background:"#0C0A0A"}}>
+>>>>>>> Stashed changes
   <div className='flex flex-col justify-center pt-10'>
     <h5 className="text-s m-auto text-[#3786ff] my-2 tracking-wider justify-center">
               2023
