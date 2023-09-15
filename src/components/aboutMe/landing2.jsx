@@ -41,13 +41,12 @@ Together Stays
 Together</p>
       </div>
       <div className="w-full lg:w-1/2 p-4 ">
-        <p className="text-s">Tincidunt elit magnis nulla facilisis sagittis is maecenas.
+        <p className="text-[0.95rem] mt-2 opacity-70">Tincidunt elit magnis nulla facilisis sagittis is maecenas.
 Sapien nunced amet ultrices, dolores sit lorem ipsum is
 simply free text available in the market velit purus aliquet
 massa fringilla leo orci.Tincidunt elit magnis nulla facilisis sagittis is maecenas.
 Sapien nunced amet ultrices, dolores sit lorem ipsum is
-simply free text available in the market velit purus aliquet
-massa fringilla leo orci.</p>
+.ultrices, dolores</p>
       </div>
     </div>
     </div>

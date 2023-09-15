@@ -38,8 +38,7 @@ class SponsorTicker extends Component {
             
             <div
               className=" py-2 px-20 border-r text-lg border-gray-300 text-center whitespace-nowrap overflow-hidden overflow-ellipsis"
-              key={index}
-            >
+              key={index}>
               {sponsor}
             </div>
           ))}
