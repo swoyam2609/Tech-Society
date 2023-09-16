@@ -6,8 +6,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import BlogCard from "../../components/home/BlogCard";
+
+
 import cimg from "../../assets/home/home-carousel/carousel1.png"
 import img1 from "../../assets/home/img1.jpeg";
+import gallery1 from "../../assets/home/gallery1.jpeg";
+import EventCard from '../../components/home/EventCard';
 
 function Home() {
   return (
@@ -90,6 +95,60 @@ function Home() {
               <div className="leaders-2 w-80 md:w-96 h-48"></div>
               <div className="leaders-2 w-80 md:w-96 h-48 my-2"></div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-center text-center items-center p-5 bg-standard-bg bg-cover min-h-fit">
+        <div className="xl:w-1/2 flex flex-col justify-center items-center my-20">
+          <div className="my-10">
+            <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
+              CHECK ALL OF OUR
+            </h5>
+            <h2 className="text-4xl sm:text-5xl m-auto text-white font-bold my-2 tracking-wider">
+              EVENTS
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 my-10">
+            <EventCard />
+            <EventCard />
+            <EventCard />
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-center text-center items-center p-5 bg-standard-bg bg-cover min-h-fit">
+        <div className="xl:w-1/2 flex flex-col justify-center items-center my-20">
+          <div className="my-10">
+            <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
+              CHECK OUT OUR
+            </h5>
+            <h2 className="text-4xl sm:text-5xl m-auto text-white font-bold my-2 tracking-wider">
+              PHOTO GALLERY
+            </h2>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
+            <img src={gallery1} className="h-48 my-2" alt="Images" />
+            <img src={gallery1} className="h-48 my-2" alt="Images" />
+            <img src={gallery1} className="h-48 my-2" alt="Images" />
+            <img src={gallery1} className="h-48 my-2" alt="Images" />
+            <img src={gallery1} className="h-48 my-2" alt="Images" />
+            <img src={gallery1} className="h-48 my-2" alt="Images" />
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-center text-center items-center p-5 bg-[#0C0A0A] bg-cover min-h-fit">
+        <div className="xl:w-2/3 flex flex-col justify-center items-center my-20">
+          <div className="my-10">
+            <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
+              RECENT ARTCILES
+            </h5>
+            <h2 className="text-4xl sm:text-5xl m-auto text-white font-bold my-2 tracking-wider">
+              LATEST BLOGS
+            </h2>
+          </div>
+          <div className="grid lg:grid-cols-3 gap-5 my-10">
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
           </div>
         </div>
       </div>
