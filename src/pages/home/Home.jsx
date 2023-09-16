@@ -41,7 +41,7 @@ function Home() {
             <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
               WELCOME TO THE BEST
             </h5>
-            <h2 className="text-5xl m-auto text-white font-bold my-2 tracking-wider">
+            <h2 className="text-4xl sm:text-5xl m-auto text-white font-bold my-2 tracking-wider">
               CODING ENVIRONMENT
             </h2>
           </div>
@@ -64,6 +64,33 @@ function Home() {
               ABOUT US
             </button>
           </a>
+        </div>
+      </div>
+      <div className="w-full flex justify-center text-center items-center p-5 bg-standard-bg-2 bg-cover min-h-fit">
+        <div className="xl:w-1/2 flex flex-col justify-center items-center my-20">
+          <div className="my-10">
+            <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
+              WATCH OUT
+            </h5>
+            <h2 className="text-4xl sm:text-5xl m-auto text-white font-bold my-2 tracking-wider">
+              GREAT LEADERS
+            </h2>
+          </div>
+          <div className="flex flex-wrap xl:flex-nowrap justify-center items-center gap-2 my-10">
+            <div className="leaders-1 h-96 w-80 md:w-96 text-left px-12">
+              <div className="h-56"></div>
+              <h5 className="text-sm text-[#3786ff] my-2 tracking-wider">
+                SECRETARY 2022
+              </h5>
+              <h2 className="text-4xl sm:text-5xl text-white font-bold my-2 tracking-wider">
+                SOURAV PATI
+              </h2>
+            </div>
+            <div>
+              <div className="leaders-2 w-80 md:w-96 h-48"></div>
+              <div className="leaders-2 w-80 md:w-96 h-48 my-2"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

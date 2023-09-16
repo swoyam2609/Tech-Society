@@ -62,6 +62,14 @@ export default function NavBar() {
                   </a>
                 </li>
                 <li>
+                  <a
+                    href="/team"
+                    className="flex duration-300 hover:text-white"
+                  >
+                    OUR TEAM
+                  </a>
+                </li>
+                <li>
                   <a href="/faq" className="flex duration-300 hover:text-white">
                     FAQs
                   </a>
