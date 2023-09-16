@@ -4,7 +4,7 @@ import image3 from '../../assets/aboutMe/image2.png';
 import image2 from '../../assets/aboutMe/image3.png';
 const Landing2 = () => {
   return (
-    <div className=' text-white p-4' style={{background:"#0C0A0A"}} >
+    <div className=' text-white p-4 py-10' style={{background:"#0C0A0A"}} >
     
   
     <div className="flex flex-wrap justify-center pt-20">

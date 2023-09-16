@@ -40,7 +40,7 @@ const Leads = () => {
           <img src={game} className="w-16 h-16" alt="" />
         </div>
         <div>
-          <h1 className='text-white text-4.5xl tracking-wider pb-1'>76,500</h1>
+          <h1 className='text-white text-[2rem] tracking-wider pb-1'>76,500</h1>
           <p className='text-white text-xs opacity-70 pb-10'>Games playerd by 6,388 people in 7 days</p>
           </div>
       </div>
@@ -50,11 +50,11 @@ const Leads = () => {
           <img src={game} className="w-16 h-16" alt="" />
         </div>
         <div>
-          <h1 className='text-white text-4.5xl tracking-wider pb-1'>76,500</h1>
+          <h1 className='text-white text-[2rem] tracking-wider pb-1'>76,500</h1>
           <p className='text-white text-xs opacity-70 pb-10'>Games playerd by 6,388 people in 7 days</p>
           </div>
       </div>
-      <hr class="border-t border-gray-300 w-[30rem] pb-10 my-4 ml-72 "></hr>
+      <hr class="border-t border-gray-300 w-[30rem] pb-10 my-4 ml-72 border-opacity-50  "></hr>
 
 
 
