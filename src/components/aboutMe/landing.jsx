@@ -16,7 +16,7 @@ const Landing = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-75 text-white font-fontawesome">
       <div className='flex'>
       <a href="/" className="text-s mr-3">HOME</a>
-      0
+      ◉
         <a href="/" className="text-s ml-3">PAGES</a>
 
       </div>

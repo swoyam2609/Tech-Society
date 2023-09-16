@@ -4,7 +4,7 @@ import image3 from '../../assets/aboutMe/image2.png';
 import image2 from '../../assets/aboutMe/image3.png';
 const Landing2 = () => {
   return (
-    <div className=' text-white p-4' style={{background:"#0C0A0A"}} >
+    <div className=' text-white p-4 py-10' style={{background:"#0C0A0A"}} >
     
   
     <div className="flex flex-wrap justify-center pt-20">
@@ -41,13 +41,12 @@ Together Stays
 Together</p>
       </div>
       <div className="w-full lg:w-1/2 p-4 ">
-        <p className="text-s">Tincidunt elit magnis nulla facilisis sagittis is maecenas.
+        <p className="text-[0.95rem] mt-2 opacity-70">Tincidunt elit magnis nulla facilisis sagittis is maecenas.
 Sapien nunced amet ultrices, dolores sit lorem ipsum is
 simply free text available in the market velit purus aliquet
 massa fringilla leo orci.Tincidunt elit magnis nulla facilisis sagittis is maecenas.
 Sapien nunced amet ultrices, dolores sit lorem ipsum is
-simply free text available in the market velit purus aliquet
-massa fringilla leo orci.</p>
+.ultrices, dolores</p>
       </div>
     </div>
     </div>

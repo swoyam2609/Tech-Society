@@ -31,15 +31,14 @@ class SponsorTicker extends Component {
 
   render() {
     return (
-      <div className="bg-black text-white w-full h-32 overflow-hidden  flex justify-center items-center">
+      <div className="bg-black text-white w-full h-32 overflow-hidden py-20 flex justify-center items-center">
         <div className="flex animate-ticker">
         <div className='border-r text-lg border-gray-300'></div>
           {this.state.sponsors.map((sponsor, index) => (
             
             <div
               className=" py-2 px-20 border-r text-lg border-gray-300 text-center whitespace-nowrap overflow-hidden overflow-ellipsis"
-              key={index}
-            >
+              key={index}>
               {sponsor}
             </div>
           ))}
