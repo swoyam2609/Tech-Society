@@ -12,7 +12,38 @@ import BlogCard from "../../components/home/BlogCard";
 import cimg from "../../assets/home/home-carousel/carousel1.png"
 import img1 from "../../assets/home/img1.jpeg";
 import gallery1 from "../../assets/home/gallery1.jpeg";
-import EventCard from '../../components/home/EventCard';
+import Event from '../../components/home/EventCard';
+import EventPic1 from '../../../src/assets/home/event1.png'
+import EventPic2 from '../../../src/assets/home/event2.png'
+import EventPic3 from '../../../src/assets/home/event3.png'
+import EventPic4 from '../../../src/assets/home/event4.png'
+import BlogCard from '../../components/home/BlogCard'
+const events = [
+  {
+    title: 'WATCH STREAM',
+    subject: 'HACKATHON',
+    time: '30th MAY 2019, 11:00 AM',
+    imageUrl:EventPic1
+    },
+  {
+    title: 'GAME RESULTS',
+    subject: 'CYBER HUNT',
+    time: '17th APRIL 2019, 6:00 PM',
+    imageUrl:EventPic2,
+  },
+  {
+    title: 'WATCH STREAM',
+    subject: 'SWING N  CODE',
+    time: '12th MAY 2019, 6:00 PM',
+    imageUrl:EventPic3,
+  },
+  {
+    title: 'GAME RESULTS',
+    subject: 'SWITCH CODING',
+    time: '18th MAY 2019, 6:00 PM',
+    imageUrl:EventPic4,
+  },
+]
 
 function Home() {
   return (
@@ -108,10 +139,13 @@ function Home() {
               EVENTS
             </h2>
           </div>
-          <div className="grid grid-cols-1 my-10">
-            <EventCard />
-            <EventCard />
-            <EventCard />
+          <div className="container mx-auto">
+            <h1 className="text-3xl font-semibold my-4">All Events</h1>
+            <div className="container mx-auto">
+              {events.map((event, index) => (
+                 <Event key={index} {...event} isGray={index % 2 === 1} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

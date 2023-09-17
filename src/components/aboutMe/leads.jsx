@@ -7,7 +7,7 @@ const Leads = () => {
       name: 'Lead 1',
       title: 'Title 1',
       imageUrl:lead,
-      facebook:'#',
+      linkedin:'#',
       instagram:'#',
       twitter:'#',
       mail:'#'
@@ -16,7 +16,7 @@ const Leads = () => {
       name: 'Lead 2',
       title: 'Title 2',
       imageUrl:lead,
-      facebook:'#',
+      linkedin:'#',
       instagram:'#',
       twitter:'#',
       mail:'#'
@@ -25,7 +25,7 @@ const Leads = () => {
       name: 'Lead 3',
       title: 'Title 3',
       imageUrl:lead,
-      facebook:'#',
+      linkedin:'#',
       instagram:'#',
       twitter:'#',
       mail:'#' 
@@ -70,7 +70,7 @@ const Leads = () => {
       {leadsData.map((lead, index) => (
         <div
           key={index}
-          className=" w-64 bg-black text-center shadow-md"
+          className=" w-64 bg-black text-center shadow-md duration-300 hover:scale-105 hover:rounded-lg"
         >
           <img
             src={lead.imageUrl}
@@ -84,7 +84,7 @@ const Leads = () => {
           </div>
           <div className="text-white justify-center text-lg mt-6 pb-10 gap-2 flex space-x-2">
           <a href={lead.twitter}><ion-icon name="logo-twitter"></ion-icon></a>
-          <a href={lead.facebook}><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href={lead.linkedin}><ion-icon name="logo-linkedin"></ion-icon></a>
           <a href={lead.instagram}><ion-icon name="logo-instagram"></ion-icon></a>
           <a href={lead.mail}><ion-icon name="mail"></ion-icon></a>
         </div>
