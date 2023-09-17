@@ -9,7 +9,7 @@ export default function NavBar() {
     <div className=" shadow-md w-full top-0 left-0 navbar">
       <div className="md:flex items-center justify-between bg-[#0c0a0a] py-4 px-7 md:px-10">
         <div className="items-center font-[Poppins] text-white z-20">
-          <a href="/" className="flex">
+          <a href="/" className="flex duration-300 hover:scale-110">
             <span>
               <img src={logo} alt="tech-society logo" />
             </span>
@@ -34,14 +34,14 @@ export default function NavBar() {
             isOpen ? "top-20" : "top-[-500px]"
           }`}
         >
-          <li className="md:ml-8 text-sm md:my-0 my-5">
+          <li className="md:ml-8 text-sm md:my-0 my-5 hover:scale-110 duration-300">
             <a href="/" className="hover:text-white duration-300">
               HOME
             </a>
           </li>
           <li className=" relative md:top-1.5 md:ml-8 text-sm md:my-0 my-5">
             <button
-              className="hover:text-white duration-300 pb-3"
+              className="hover:text-white duration-300 pb-3 hover:scale-110"
               onMouseEnter={() => setDropdown(true)}
             >
               PAGES &#709;
@@ -56,7 +56,7 @@ export default function NavBar() {
                 <li>
                   <a
                     href="/about"
-                    className="flex duration-300 hover:text-white"
+                    className="flex duration-300 hover:text-white hover:scale-110"
                   >
                     ABOUT US
                   </a>
@@ -64,31 +64,37 @@ export default function NavBar() {
                 <li>
                   <a
                     href="/team"
-                    className="flex duration-300 hover:text-white"
+                    className="flex duration-300 hover:text-white hover:scale-110"
                   >
                     OUR TEAM
                   </a>
                 </li>
                 <li>
-                  <a href="/faq" className="flex duration-300 hover:text-white">
+                  <a
+                    href="/faq"
+                    className="flex duration-300 hover:text-white hover:scale-110"
+                  >
                     FAQs
                   </a>
                 </li>
               </ul>
             </div>
           </li>
-          <li className="md:ml-8 text-sm md:my-0 my-5">
+          <li className="md:ml-8 text-sm md:my-0 my-5 hover:scale-110 duration-300">
             <a href="/gallery" className="hover:text-white duration-300">
               GALLERY
             </a>
           </li>
-          <li className="md:ml-8 text-sm md:my-0 my-5">
+          <li className="md:ml-8 text-sm md:my-0 my-5 hover:scale-110 duration-300">
             <a href="/events" className="hover:text-white duration-300">
               EVENTS
             </a>
           </li>
-          <li className="md:ml-8 text-sm md:my-0 my-5">
-            <a href="/contact" className="hover:text-white duration-300">
+          <li className="md:ml-8 text-sm md:my-0 my-5 hover:scale-110 duration-300">
+            <a
+              href="/contact"
+              className="hover:text-white duration-300"
+            >
               CONTACT
             </a>
           </li>

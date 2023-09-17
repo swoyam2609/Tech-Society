@@ -10,8 +10,8 @@ function About() {
       <Landing />
       <Landing2 />
       <SponsorTicker/>
-    <PhotoBanner/>
-    <Leads/>
+      <PhotoBanner/>
+      <Leads/>
     </div>
   )
 }

@@ -15,11 +15,3 @@ body {
     background: url("./assets/bg.jpeg");
     background-size: cover;
 }
-
-.leaders-1 {
-    background: url("./assets/home/leaders1.jpeg");
-}
-
-.leaders-2 {
-    background: url("./assets/home/leaders2.jpeg");
-}
