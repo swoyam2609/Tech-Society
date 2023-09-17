@@ -6,7 +6,7 @@ import PhotoBanner from '../../components/aboutMe/photoBanner';
 import Leads from '../../components/aboutMe/leads';
 function About() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Landing />
       <Landing2 />
       <SponsorTicker/>
