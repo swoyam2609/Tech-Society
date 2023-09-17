@@ -6,9 +6,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import BlogCard from "../../components/home/BlogCard";
-
-
 import cimg from "../../assets/home/home-carousel/carousel1.png"
 import img1 from "../../assets/home/img1.jpeg";
 import gallery1 from "../../assets/home/gallery1.jpeg";
