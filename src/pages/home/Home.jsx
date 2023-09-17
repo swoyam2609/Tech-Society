@@ -6,6 +6,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import BlogCard from "../../components/home/BlogCard";
+
+
 import cimg from "../../assets/home/home-carousel/carousel1.png"
 import img1 from "../../assets/home/img1.jpeg";
 import gallery1 from "../../assets/home/gallery1.jpeg";
@@ -30,17 +33,18 @@ const events = [
   },
   {
     title: 'WATCH STREAM',
-    subject: 'ROBO RACE',
+    subject: 'SWING N  CODE',
     time: '12th MAY 2019, 6:00 PM',
     imageUrl:EventPic3,
   },
   {
     title: 'GAME RESULTS',
-    subject: 'DRONE EVENT',
+    subject: 'SWITCH CODING',
     time: '18th MAY 2019, 6:00 PM',
     imageUrl:EventPic4,
   },
 ]
+
 function Home() {
   return (
     <div className="min-h-full w-full z-0">
@@ -136,13 +140,13 @@ function Home() {
             </h2>
           </div>
           <div className="container mx-auto">
-      <h1 className="text-3xl font-semibold my-4">Upcoming Events</h1>
-      <div className="container mx-auto">
-      {events.map((event, index) => (
-        <Event key={index} {...event} isGray={index % 2 === 1} />
-      ))}
-    </div>
-    </div>
+            <h1 className="text-3xl font-semibold my-4">All Events</h1>
+            <div className="container mx-auto">
+              {events.map((event, index) => (
+                 <Event key={index} {...event} isGray={index % 2 === 1} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
       <div className="w-full flex justify-center text-center items-center p-5 bg-standard-bg bg-cover min-h-fit">
