@@ -1,5 +1,7 @@
 import React from 'react';
 import background from '../../assets/aboutMe/overlay.png';
+import Typed from 'react-typed';
+  
 
 const PhotoBanner = () => {
   const bannerStyle = {
@@ -16,7 +18,21 @@ const PhotoBanner = () => {
       >
         <div className="ml-5 lg:ml-60">
           <div className="text-2xl lg:text-4xl w-3/4  font-semibold text-left  max-w-2xl">
-            <p>Gamon WHERE DIGITAL WORLDS MEET REAL INNOVATION</p>
+            {/* <p>MEET OUR CHAPTERS</p> */}
+            
+        <p className='md:text-5xl sm:text-4xl text-xl font-bold'>MEET OUR CHAPTERS,</p>
+        <Typed className='md:text-4xl sm:text-3xl text-xl font-bold' strings={[
+                   
+             'Coding Ninjas'
+            ,'Gdsc',
+          'Gfg IIIT-Bh',
+        'InfoSec',
+        'MetaVerse',
+      'TechSociety',
+    'Psoc IIIT-Bh']}
+                    typeSpeed={120}
+                    backSpeed={140} loop></Typed>
+      
           </div>
           <a href="/contact">
             <button className="mt-8 w-32  bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 transition duration-300">
