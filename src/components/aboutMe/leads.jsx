@@ -1,6 +1,6 @@
 import React from 'react';
 import lead from '../../assets/aboutMe/lead.png';
-import game from '../../assets/aboutMe/game.png';
+// import game from '../../assets/aboutMe/game.png';
 
 import Swoyam from "../../assets/aboutMe/leads/Swoyam.jpg";
 import Ravi from "../../assets/aboutMe/leads/Ravi.jpg";
@@ -93,7 +93,7 @@ const Leads = () => {
       className="justify-center items-center pb-28"
       style={{ background: "#0C0A0A" }}
     >
-      <div className="flex gap-5 text-left ml-5 lg:ml-80 pt-28 hover:scale-110 duration-300 cursor-pointer">
+      {/* <div className="flex gap-5 text-left ml-5 lg:ml-80 pt-28 hover:scale-110 duration-300 cursor-pointer">
         <div>
           <img src={game} className="w-16 h-16" alt="" />
         </div>
@@ -116,7 +116,7 @@ const Leads = () => {
           </p>
         </div>
       </div>
-      <hr class="border-t border-gray-300 w-[30rem] pb-10 my-4 ml-72 border-opacity-50  "></hr>
+      <hr class="border-t border-gray-300 w-[30rem] pb-10 my-4 ml-72 border-opacity-50  "></hr> */}
 
       <div className="flex flex-col justify-center p-10">
         <h5 className="text-s m-auto text-[#3786ff] my-2 tracking-wider justify-center">

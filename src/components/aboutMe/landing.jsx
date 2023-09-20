@@ -1,12 +1,13 @@
-import React from 'react';
-import background from '../../assets/aboutMe/Section.png';
+// import React from 'react';
+// import background from '../../assets/aboutMe/Section.png';
+import aboutus from '../../assets/aboutMe/aboutus.png';
 import '../../pages/about/styles.css'
 const Landing = () => {
   return (
     <div className="relative" style={{background:"#000"}}>
       {/* Background Image */}
       <img
-        src={background}
+        src={aboutus}
 
         alt="Background"
         className="w-full h-80 md:h-375 object-cover"
@@ -17,7 +18,7 @@ const Landing = () => {
       <div className='flex'>
       <a href="/" className="text-s mr-3">HOME</a>
       ◉
-        <a href="/" className="text-s ml-3">PAGES</a>
+        <a href="/" className="text-s ml-3">PAGE</a>
 
       </div>
         <h1 className="text-6xl text-center font-bold mb-4 mt-5">ABOUT CLAN</h1>

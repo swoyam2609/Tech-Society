@@ -30,8 +30,8 @@ const Landing2 = () => {
           />
         </div>
       </div>
-      <div className="flex flex-wrap justify-center">
-        {/* Two paragraphs */}
+      {/* <div className="flex flex-wrap justify-center">
+     
         <div className="w-[420px] p-4">
           <p className="text-white font-roboto text-4xl font-bold leading-tight tracking-wide uppercase">
             A Clan That Slays Together Stays Together
@@ -47,7 +47,7 @@ const Landing2 = () => {
             dolores
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
