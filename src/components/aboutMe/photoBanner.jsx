@@ -23,13 +23,12 @@ const PhotoBanner = () => {
         <p className='md:text-5xl sm:text-4xl text-xl font-bold'>MEET OUR CHAPTERS,</p>
         <Typed className='md:text-4xl sm:text-3xl text-xl font-bold' strings={[
                    
-             'Coding Ninjas'
-            ,'Gdsc',
-          'Gfg IIIT-Bh',
-        'InfoSec',
-        'MetaVerse',
-      'TechSociety',
-    'Psoc IIIT-Bh']}
+             'Coding Ninjas',
+             'GDSC',
+             'Geeks For Geeks',
+             'InfoSec',
+             'MetaVerse',
+             'PSoc']}
                     typeSpeed={120}
                     backSpeed={140} loop></Typed>
       

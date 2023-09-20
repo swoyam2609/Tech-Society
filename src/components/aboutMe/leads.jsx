@@ -1,10 +1,7 @@
 import React from 'react';
-import lead from '../../assets/aboutMe/lead.png';
 // import game from '../../assets/aboutMe/game.png';
 
 import Swoyam from "../../assets/aboutMe/leads/Swoyam.jpg";
-import Ravi from "../../assets/aboutMe/leads/Ravi.jpg";
-import Sai from "../../assets/aboutMe/leads/Sai.jpg";
 import Raj from "../../assets/aboutMe/leads/Raj.jpg";
 
 const Leads = () => {
@@ -22,70 +19,7 @@ const Leads = () => {
       imageUrl: Raj,
       linkedin: "https://www.linkedin.com/in/rajalphaswain/",
       mail: "mailto:b321028@iiit-bh.ac.in",
-    },
-    {
-      name: "Abhipsha Dash",
-      title: "GDSC Lead",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/abhipsha-dash/",
-      mail: "mailto:b321003@iiit-bh.ac.in",
-    },
-    {
-      name: "Ravi Kumar",
-      title: "PSoC Lead",
-      imageUrl: Ravi,
-      linkedin: "https://www.linkedin.com/in/ravi-kumar-5b3469230/",
-      mail: "mailto:b421039@iiit-bh.ac.in",
-    },
-    {
-      name: "Sai Simran Patro",
-      title: "PSoC Lead",
-      imageUrl: Sai,
-      linkedin: "https://www.linkedin.com/in/simran-sai003/",
-      mail: "mailto:b321043@iiit-bh.ac.in",
-    },
-    {
-      name: "Sneha Mandal",
-      title: "Metaverse",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/sneha-mandal-579999236/",
-      mail: "mailto:b121057@iiit-bh.ac.in",
-    },
-    {
-      name: "Karimi Upendra",
-      title: "Metaverse",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/karimi-upendra/",
-      mail: "mailto:b121023@iiit-bh.ac.in",
-    },
-    {
-      name: "Subrat Kumar Swain",
-      title: "Infosec",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/subrat-kumar-swain-iiit/",
-      mail: "mailto:b421055@iiit-bh.ac.in",
-    },
-    {
-      name: "Sidharth Chaudhury",
-      title: "Infosec",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/rajalphaswain/",
-      mail: "mailto:b221052@iiit-bh.ac.in",
-    },
-    {
-      name: "Abhishek Upadhyay",
-      title: "GeeksForGeeks",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/abishek-upadhyay-623026228/",
-      mail: "mailto:b121002@iiit-bh.ac.in",
-    },
-    {
-      name: "Md. Ehtisham",
-      title: "Coding Ninjas",
-      imageUrl: lead,
-      linkedin: "https://www.linkedin.com/in/ehtishaam/",
-      mail: "mailto:b522035@iiit-bh.ac.in",
-    },
+    }
   ];
 
   return (
@@ -127,7 +61,7 @@ const Leads = () => {
         </h2>
       </div>
       <div
-        className="gap-5 grid grid-cols-1 lg:grid-cols-3 lg:space-x-8 justify-center items-center"
+        className="gap-5 flex flex-col lg:flex-row lg:space-x-8 justify-center items-center"
         style={{ background: "#0C0A0A" }}
       >
         {leadsData.map((lead, index) => (
@@ -138,7 +72,7 @@ const Leads = () => {
             <img
               src={lead.imageUrl}
               alt={`Lead ${index + 1}`}
-              className="w-80 object-cover mb-3 ml-7"
+              className="w-80 object-cover mb-3 mx-auto"
             />
             <p className="text-2xl font-extrabold text-white mt-7">
               {lead.name}

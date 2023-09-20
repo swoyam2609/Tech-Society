@@ -21,7 +21,7 @@ const Landing = () => {
         <a href="/" className="text-s ml-3">PAGE</a>
 
       </div>
-        <h1 className="text-6xl text-center font-bold mb-4 mt-5">ABOUT CLAN</h1>
+        <h1 className="text-6xl text-center font-bold mb-4 mt-5">ABOUT US</h1>
         
       </div>
     </div>

@@ -5,7 +5,6 @@ import gfg from '../../assets/aboutMe/tech-logos/gfg.png';
 import psoc from '../../assets/aboutMe/tech-logos/psoc.png';
 import infoSec from '../../assets/aboutMe/tech-logos/infoSec.png';
 import metaverse from '../../assets/aboutMe/tech-logos/metaverse.png';
-import techSoc from '../../assets/aboutMe/tech-logos/techSoc.png';
 
 function LogoSection() {
   return (
@@ -35,9 +34,6 @@ function LogoSection() {
             <img src={metaverse} className='h-32 w-32' alt="Spark" />
         </li>
         <li>
-            <img src={techSoc} className='h-32 w-32' alt="Samsung" />
-        </li>
-        <li>
             <img src={psoc} className='h-32 w-32' alt="Samsung" />
         </li>
        
@@ -57,9 +53,6 @@ function LogoSection() {
         </li>
         <li>
             <img src={metaverse} className='h-32 w-32'  alt="Spark" />
-        </li>
-        <li>
-            <img src={techSoc} className='h-32 w-32' alt="Samsung" />
         </li>
         <li>
             <img src={psoc} className='h-32 w-32' alt="Samsung" />
