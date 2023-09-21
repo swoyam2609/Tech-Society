@@ -1,7 +1,6 @@
-import React from 'react';
+import React,{ useEffect, useRef } from 'react';
 import background from '../../assets/aboutMe/overlay.png';
-import Typed from 'react-typed';
-  
+import Typed from "typed.js";
 
 const PhotoBanner = () => {
   const bannerStyle = {
@@ -9,6 +8,27 @@ const PhotoBanner = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
+
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [
+        "Coding Ninjas",
+        "GDSC",
+        "Geeks For Geeks",
+        "InfoSec",
+        "MetaVerse",
+        "PSoc",
+      ],
+      typeSpeed: 120,
+      backSpeed: 120
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <div className="h-64 lg:h-96 relative">
@@ -18,20 +38,10 @@ const PhotoBanner = () => {
       >
         <div className="ml-5 lg:ml-60">
           <div className="text-2xl lg:text-4xl w-3/4  font-semibold text-left  max-w-2xl">
-            {/* <p>MEET OUR CHAPTERS</p> */}
-            
-        <p className='md:text-5xl sm:text-4xl text-xl font-bold'>MEET OUR CHAPTERS,</p>
-        <Typed className='md:text-4xl sm:text-3xl text-xl font-bold' strings={[
-                   
-             'Coding Ninjas',
-             'GDSC',
-             'Geeks For Geeks',
-             'InfoSec',
-             'MetaVerse',
-             'PSoc']}
-                    typeSpeed={120}
-                    backSpeed={140} loop></Typed>
-      
+            <p className="md:text-5xl sm:text-4xl text-xl font-bold">
+              MEET OUR CHAPTERS,
+            </p>
+            <span ref={el} />
           </div>
           <a href="/contact">
             <button className="mt-8 w-32  bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 transition duration-300">
