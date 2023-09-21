@@ -15,14 +15,14 @@ function Footer() {
                 <h2 className="text-3xl mb-1 tracking-wide">
                   <span className="font-bold">Tech</span>Society
                 </h2>
-                <h5 className="text-xs text-sm text-center  tracking-widest">
+                <h5 className="text-sm text-center tracking-widest">
                   IIIT BHUBANESWAR
                 </h5>
               </span>
             </a>
             <p className=" text-[#848484] mr-5 tracking-wide leading-6 text-xs line py-3">
               Unlock the potential of the digital realm with us, where
-              creativity meets technology.
+              creativity meets technology.
             </p>
           </div>
         </div>
