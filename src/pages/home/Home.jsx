@@ -5,7 +5,7 @@ import 'swiper/css/bundle'
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-
+import leaders from '../../assets/home/leaders1.jpeg';
 import cimg1 from "../../assets/home/home-carousel/carousel1.png";
 import cimg2 from "../../assets/home/home-carousel/carousel3.jpg";
 import cimg3 from "../../assets/home/home-carousel/DSCN6814.JPG";
@@ -124,7 +124,13 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="w-full flex justify-center text-center items-center p-5 bg-standard-bg-2 bg-cover min-h-fit">
+      <div className="w-full flex justify-center text-center items-center p-5 relative">
+  <div
+    className="absolute inset-0 bg-no-repeat bg-center bg-contain"
+    style={{
+      backgroundImage: {leaders},
+    }}
+  ></div>
         <div className="xl:w-1/2 flex flex-col justify-center items-center my-20">
           <div className="my-10">
             <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
