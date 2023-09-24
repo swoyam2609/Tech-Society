@@ -68,19 +68,19 @@ function Contact() {
             <input
               className="bg-[#1B1A1A] h-14 w-[88%] md:w-2/5 m-5 p-3 text-white"
               value={name}
-              onChange={(e)=>inputChangehandler(setName,e)}
+              onChange={(e) => inputChangehandler(setName, e)}
               placeholder="Full Name"
             />
             <input
               className="bg-[#1B1A1A] h-14 w-[88%] md:w-2/5 m-5 p-3 text-white"
               value={email}
-              onChange={(e)=>inputChangehandler(setEmail,e)}
+              onChange={(e) => inputChangehandler(setEmail, e)}
               placeholder="Email address"
             />
             <textarea
               className="bg-[#1B1A1A] h-48 w-[88%] m-5 p-3 text-white"
               value={message}
-              onChange={(e)=>inputChangehandler(setMessage,e)}
+              onChange={(e) => inputChangehandler(setMessage, e)}
               placeholder="Enter your message"
             />
             <button
@@ -91,6 +91,16 @@ function Contact() {
             </button>
           </form>
         </div>
+      </div>
+      <div className='my-10'>
+        <iframe
+          title='College address'
+          className='mx-auto w-[80vw] h-[60vh]'
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.1332146669993!2d85.74082137507847!3d20.29475241258431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1907923fc9c557%3A0xd3b0b05336a9dfaa!2sInternational%20Institute%20of%20Information%20Technology%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1695546755837!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
   );
