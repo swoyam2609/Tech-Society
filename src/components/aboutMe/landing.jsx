@@ -1,5 +1,3 @@
-// import React from 'react';
-// import background from '../../assets/aboutMe/Section.png';
 import aboutus from '../../assets/aboutMe/aboutus.png';
 import '../../pages/about/styles.css'
 const Landing = () => {

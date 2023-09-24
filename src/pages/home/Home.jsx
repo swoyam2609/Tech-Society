@@ -63,20 +63,28 @@ function Home() {
         }}
         navigation
         pagination={{ clickable: true }}
-        className="h-min"
+        className=" h-[40vh] lg:h-[80vh]"
       >
         <SwiperSlide>
           <img
             src={cimg1}
-            className="object-cover w-full h-"
+            className="object-cover lg:w-full h-full"
             alt="carousel-img"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={cimg2} className="object-cover w-full" alt="carousel-img" />
+          <img
+            src={cimg2}
+            className="object-cover lg:w-full h-full"
+            alt="carousel-img"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={cimg3} className="object-cover w-full" alt="carousel-img" />
+          <img
+            src={cimg3}
+            className="object-cover lg:w-full h-full"
+            alt="carousel-img"
+          />
         </SwiperSlide>
       </Swiper>
       <div className="w-full flex justify-center text-center items-center p-5 bg-standard-bg bg-cover min-h-fit">
@@ -125,12 +133,12 @@ function Home() {
         </div>
       </div>
       <div className="w-full flex justify-center text-center items-center p-5 relative">
-  <div
-    className="absolute inset-0 bg-no-repeat bg-center bg-contain"
-    style={{
-      backgroundImage: {leaders},
-    }}
-  ></div>
+        <div
+          className="absolute inset-0 bg-no-repeat bg-center bg-contain"
+          style={{
+            backgroundImage: { leaders },
+          }}
+        ></div>
         <div className="xl:w-1/2 flex flex-col justify-center items-center my-20">
           <div className="my-10">
             <h5 className="text-sm m-auto text-[#3786ff] my-2 tracking-wider">
