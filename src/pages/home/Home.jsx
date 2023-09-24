@@ -149,7 +149,7 @@ function Home() {
             </h2>
           </div>
           <div className="flex flex-wrap xl:flex-nowrap justify-center items-center gap-2 my-10 hover:scale-105 duration-300">
-            <div className="bg-leaders-bg h-96 w-auto text-left px-12">
+            <div className="bg-leaders-bg h-96 text-left px-12">
               <div className="h-56"></div>
               <h5 className="text-sm text-[#64d6ff] my-2 font-bold tracking-wider">
                 SECRETARY 2022
