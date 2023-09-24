@@ -15,3 +15,6 @@ body {
     background: url("./assets/bg.jpeg");
     background-size: cover;
 }
+::-webkit-scrollbar {
+    display: none;
+}

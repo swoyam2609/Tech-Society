@@ -1,5 +1,4 @@
 import React from 'react';
-// import game from '../../assets/aboutMe/game.png';
 
 import Swoyam from "../../assets/aboutMe/leads/Swoyam.jpg";
 import Raj from "../../assets/aboutMe/leads/Raj.jpg";
@@ -57,7 +56,7 @@ const Leads = () => {
           2023
         </h5>
         <h2 className="text-5xl m-auto text-white font-bold mb-8 my-2 tracking-wider">
-          OUR LEADS
+          OUR LEADERS
         </h2>
       </div>
       <div
